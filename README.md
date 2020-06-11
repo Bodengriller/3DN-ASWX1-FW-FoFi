@@ -12,8 +12,8 @@ Seine Firmware wird von vielen Leuten genutzt und ist daher als "erprobt und fü
 
 Es gab ein paar Kleinigkeiten, die **mir persönlich** nicht 100%ig passten, darum habe ich diese angepasst.
 
-Ich nutze dieses Repo ausdrücklich nur als Speicher- Ablage- und Dokumentations-Ort für meine eigenen Änderungen.
-Dies ist auch der Grund, wieso ich dies hier nur sporadisch und auf Deutsch dokumentiere.
+Ich nutze dieses Repo ausdrücklich nur als Speicher-, Ablage- und Dokumentations-Ort für meine eigenen Änderungen.
+Dies ist auch der Grund, wieso ich dies hier nur sporadisch und auf Deutsch dokumentiere.  
 Diese Änderungen dürfen natürlich von jedermann mit-benutzt werden, allerdings **wird es hier keinen Support geben!**
 
 Bei Fragen zur Firmware wendet euch bitte an Earl Miller von 3D Nexus auf seiner Seite.
@@ -27,7 +27,7 @@ Dies hier sind einige Erläuterungen (als Gedankenstütze an mich selbst):
 **Zeile:**	333  
 **3DN:**	#define TEMP_HYSTERESIS 5  
 **FoFi:**	#define TEMP_HYSTERESIS 3  
-**Grund:**	Ich habe liebe eine stabile Temperatur als eine Zeitersparnis von wenigen Sekunden  
+**Grund:**	Ich habe lieber eine stabile Temperatur als eine Zeitersparnis von wenigen Sekunden  
   
 **Zeile:**	355  
 **3DN:**	#define HEATER_0_MAXTEMP 250  
@@ -63,21 +63,21 @@ Marlin rechnet sowieso immer 15°C "Sicherheit" ein. bei 250°C erreicht man als
 **Zeile:**	625  
 **3DN:**	#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 445 }  
 **FoFi:**	#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.121, 80.121, 399.778, 445 }  
-**Grund:**	Diese Werte werden in der Artillery-FW verwendet und ich habe nichts daran auszusetzen! (Einige nutzer mügen die glatten Werte lieber!)  
+**Grund:**	Diese Werte werden in der Artillery-FW verwendet und ich habe nichts daran auszusetzen! (Einige Nutzer mögen die glatten Werte lieber!)  
   
 **Zeile:**	897 & 901  
 **3DN:**	#define Y_BED_SIZE 310  
 		#define X_MIN_POS -2  
 **FoFi:**	#define Y_BED_SIZE 300  
 		#define X_MIN_POS 0  
-**Grund:**	Für mich waren diese Werte einfach falsch! Man konnte mit der Nozzle nach hinten und rechts über den Druckbereich fahren (jedoch nicht in einen mechanischen Anschlag). Ich habe diese Werte ermittelt und so rundherum ca. 5mm Software-Limit um den Druckbereich.  
+**Grund:**	Für mich waren diese Werte einfach falsch! Man konnte mit der Nozzle nach hinten und rechts über den Druckbereich hinaus fahren (jedoch nicht in einen mechanischen Anschlag). Ich habe diese Werte ermittelt und so rundherum ca. 5mm Software-Limit um den Druckbereich.  
   
 **Zeile:**	1168 & 1170  
 **3DN:**	#define HOMING_FEEDRATE_XY (80\*60)  
 		#define HOMING_FEEDRATE_Z  (20\*60)  
 **FoFi:**	#define HOMING_FEEDRATE_XY (60\*60)  
 		#define HOMING_FEEDRATE_Z  (10\*60)  
-**Grund:**	Ich habe es lieber, wenn die Achsen beim homen etwas sanfter vor die Inis fahren.  
+**Grund:**	Ich habe es lieber, wenn die Achsen beim Homen etwas sanfter vor die Inis fahren.  
   
 **Zeile:**	1176 & 1178  
 **3DN:**	#define PREHEAT_1_TEMP_HOTEND 180  
