@@ -20,7 +20,7 @@ Bei Fragen zur Firmware wendet euch bitte an Earl Miller von 3D Nexus auf seiner
 
 
 ## Änderungen
-Änderungen in den Configs wurden mit "FoFi" gekennzeichnet.
+Änderungen in den Configs wurden mit "FoFi" gekennzeichnet.  
 Dies hier sind einige Erläuterungen (als Gedankenstütze an mich selbst):
 
 
