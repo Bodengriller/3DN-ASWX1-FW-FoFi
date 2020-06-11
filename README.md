@@ -90,6 +90,20 @@ Marlin rechnet sowieso immer 15°C "Sicherheit" ein. bei 250°C erreicht man als
 Kompiliert mit ArduinoIDE 1.8.12 (without Bootloader)  
 Board: "Arduino/Genuino Mega or Mega 2560"  
 Processor: "ATmega2560 (Mega 2560)"  
+
+Nutzung der flash.sh:  
+Vorher:  
+`sudo apt-get update`  
+`sudo apt-get install avrdude`  
   
+1. Ausführen mit gewünschter Firmware-Datei als Argument:  
+`./flash.sh 3DN-SWX1-FoFi_Marlin_1.1.9.hex`  
+-> flasht die angegebene Firmware-Datei "3DN-SWX1-FoFi_Marlin_1.1.9.hex" (Beispiel)  
+
+2. Ausführen ohne Argumente:  
+`./flash.sh`  
+-> versucht die Datei "firmware.hex" zu flashen, falls vorhanden
+  
+    
 ## Verlauf  
 **11.06.2020** - Erste Überarbeitung/Anpassung der 3D-Nexus-Firmware (Marlin 1.1.9)
