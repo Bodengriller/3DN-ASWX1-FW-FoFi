@@ -85,3 +85,11 @@ Marlin rechnet sowieso immer 15°C "Sicherheit" ein. bei 250°C erreicht man als
 **FoFi:**	#define PREHEAT_1_TEMP_HOTEND 200  
 		#define PREHEAT_1_TEMP_BED     65  
 **Grund:**	Persönlicher Geschmack  
+  
+## Sonstiges  
+Kompiliert mit ArduinoIDE 1.8.12 (without Bootloader)  
+Board: "Arduino/Genuino Mega or Mega 2560"  
+Processor: "ATmega2560 (Mega 2560)"  
+  
+## Verlauf  
+**11.06.2020** - Erste Überarbeitung/Anpassung der 3D-Nexus-Firmware (Marlin 1.1.9)
